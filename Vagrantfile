@@ -79,6 +79,7 @@ ExtIp: "$ipadr"
 ClusterSize: 3
 ClusterDns: "eventstore.service.consul"
 ClusterGossipPort: 2112
+RunProjections: All
 ---
 EOF
 
